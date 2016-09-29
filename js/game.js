@@ -59,7 +59,7 @@ ls.prototype._init = function(){
 		 
 		  BABYLON.OBJFileLoader.OPTIMIZE_WITH_UV = true;
 		 	var loader = new BABYLON.AssetsManager(scene);
-		 	var newload = loader.addMeshTask("player_ship", "", "./", 'LSBAG001.obj');
+		 	var newload = loader.addMeshTask("player_ship", "", "./", 'LSBAG001.OBJ');
 		 	newload.onSuccess = function (task) {
 			//console.log(task);
 			for(var i=0; i<task.loadedMeshes.length; i++){
